@@ -46,13 +46,10 @@ public:
 
 void StudentData::CreateStudents()
 {
-	
-
 	unsigned int studentCount;
 	cout << "Input number of students : ";
 	cin >> studentCount;
 	cin.ignore();
-
 
 	//if (studentCount > maxCount)
 	//{
