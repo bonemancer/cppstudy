@@ -52,14 +52,17 @@ int main()
 	{
 		if (i < size - shift)
 			arr[i] = arr[i + shift];
-		else
+		else {
+//			arr[i] = 0;
 			arr[i] = shiftArr[i + shift - size];
+		}
 	}
 	*/
 
 	for (int i = shift; i < size; i++)
 	{
 		arr[i - shift] = arr[i];
+//		arr[i] = 0;
 	}
 
 	for (int i = size - shift; i < size; i++)
